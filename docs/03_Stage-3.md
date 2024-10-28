@@ -4,8 +4,7 @@ After collaboratively training the model through incremental learning, sharing u
 ![demo](./img/Stage-3/semtement%20on%20edge.gif)
 
 
-
-
+**Note:** This is a demo video, and the deployed model may not produce accurate inferences at this stage.
 
 
 # [Approach ->](index.md)

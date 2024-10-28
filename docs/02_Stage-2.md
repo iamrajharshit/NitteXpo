@@ -16,10 +16,10 @@ This is the initial stages of a Federated Learning (FL) experiment using the Flo
 ## Client Model Training 
 ![Client](./img/Stage-2/Client%20model%20training.gif)
 
-- Timestamp: The time when the message was logged.
-- INFO: This indicates the level of logging. It's a general informational message.
-- Epoch: The current training epoch. An epoch is one complete pass through the entire training dataset.
-- Loss: The loss value for the current epoch. This is a measure of how well the model is performing. Lower loss values generally indicate better performance.
+- **Timestamp:** The time when the message was logged.
+- **INFO:** This indicates the level of logging. It's a general informational message.
+- **Epoch:** The current training epoch. An epoch is one complete pass through the entire training dataset.
+- **Loss:** The loss value for the current epoch. This is a measure of how well the model is performing. Lower loss values generally indicate better performance.
 
 - Shows that the model is being trained iteratively, and the loss is gradually decreasing, suggesting that the model is learning and improving.
 
@@ -33,17 +33,16 @@ This is the initial stages of a Federated Learning (FL) experiment using the Flo
 - A client-side interaction in a Federated Learning (FL) setup, specifically focusing on incremental learning and model validation.
 
 1. **User Input:**
-
 The user enters a sentence for prediction and potential incremental training: "This movie is great!"
+
 2. **Model Prediction:**
-
 The client's local model processes the input sentence and predicts its sentiment. In this case, the model predicts a sentiment of 1, indicating a positive sentiment.
-3. **Validation:**
 
+3. **Validation:**
 The user provides the actual sentiment label (1 for positive).
 The predicted sentiment is compared to the actual sentiment.
-4. **Incremental Learning:**
 
+4. **Incremental Learning:**
 If the predicted sentiment differs from the actual sentiment, the model is updated using the incorrect prediction as a learning example. This is known as incremental learning, where the model learns from new data without retraining on the entire dataset.
 
 ## Summary 

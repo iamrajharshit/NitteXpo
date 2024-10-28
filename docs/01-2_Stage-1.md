@@ -4,7 +4,6 @@
 
 | Parameter | Value | Description |
 |---|---|---|
-| output_dir | /content/drive/MyDrive/Rakuten/Fine Tuning LLMs/FTModels | Output directory for the model |
 | learning_rate | 3e-5 | Learning rate for the optimizer |
 | per_device_train_batch_size | 32 | Training batch size per device |
 | per_device_eval_batch_size | 32 | Evaluation batch size per device |
@@ -49,7 +48,6 @@
 ### Training Arguments
 | Parameter | Value | Description |
 |---|---|---|
-| Output Directory | /content/drive/MyDrive/Rakuten/Fine Tuning LLMs/LoRA/results | Output Directory for the Model |
 | Learning Rate | 3e-4 | Learning Rate for the Optimizer |
 | Training Batch Size | 32 | Training Batch Size per Device |
 | Evaluation Batch Size | 32 | Evaluation Batch Size per Device |
